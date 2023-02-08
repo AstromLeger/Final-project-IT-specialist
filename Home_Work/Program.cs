@@ -29,7 +29,20 @@ for (int i = 0; i < ColElement; i++)
 
 string[] Massiv1 = new string[ColPerProm03];
 
+for (int i = 0; i < ColElement; i++)
+{
+    Text = Massiv[i];
+    if (Text.Length < 4 && Text.Length >= 0)
+    {
+        // int str2 = Text.Length;
+        // Console.WriteLine(str2);
+        Massiv1[0 + ColVhod] = Massiv[i];
+        ColVhod = ColVhod + 1;
+    }
+}
 
+var str1 = string.Join(" ", Massiv1);
+Console.WriteLine(str1);
 
 
 
