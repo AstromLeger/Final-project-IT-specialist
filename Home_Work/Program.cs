@@ -27,6 +27,8 @@ for (int i = 0; i < ColElement; i++)
     }
 }
 
+string[] Massiv1 = new string[ColPerProm03];
+
 
 
 
