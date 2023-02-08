@@ -12,7 +12,8 @@ for (int i = 0; i < ColElement; i++)
     Massiv[i] = Console.ReadLine();
 }
 
-
+var str = string.Join(" ", Massiv);
+Console.WriteLine(str);
 
 
 
